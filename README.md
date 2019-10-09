@@ -12,11 +12,11 @@ This is a simple posh script to front end consul kv store and use it as an optio
 
 To test:
 1. Create a kv on consul test1 with the data ["testoption1","testoption2"]
-2. In a web browsers go to http://<rundeck ip>:1025/consul/test1
+2. In a web browsers go to http://(rundeck ip):1025/consul/test1
 3. This should return ["testoption1","testoption2"]
   
 Usage:
 Once configured you can add the root link with the KV name for the option in the remote url section of the option. 
-http://<rundeck ip>:1025/consul/<consul kv option path>
+http://(rundeck ip):1025/consul/(consul kv option path)
   
 This isnt a fully baked solution but it quickly allows you to use consul as option storage for rundeck.
